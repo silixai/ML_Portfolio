@@ -7,9 +7,8 @@ Converts a list of Celsius temperatures to Fahrenheit using a list comprehension
 - **Output**: List of Fahrenheit temperatures [32.0, 68.0, 98.6, 212.0, -40.0]
 - **Skills**: Python list comprehensions, data preprocessing
 
-
-# Distance Conversion
+## Distance Conversion
 Converts a list of kilometer distances to miles using a list comprehension. Demonstrates data transformation for ML preprocessing under silixai.com.
-- **Input**: List of kilometer distances [1, 5, 10, 42.195, 100]
-- **Output**: List of mile distances [0.621371, 3.106855, 6.21371, 26.218757745, 62.1371]
+- **Input**: List of kilometer distances [2, 5, 12, 42.195, 100]
+- **Output**: List of mile distances [1.242742, 3.106855, 7.456452, 26.218749, 62.1371]
 - **Skills**: Python list comprehensions, data preprocessing
