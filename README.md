@@ -18,3 +18,9 @@ Converts a list of energy values in joules to kilocalories using a list comprehe
 - **Input**: List of energies in joules [1000, 4184, 10000, 50000, 100000]
 - **Output**: List of energies in kilocalories [0.239, 1.0, 2.39, 11.95, 23.9]
 - **Skills**: Python list comprehensions, data preprocessing
+
+# Satisfaction Normalization
+Normalizes a list of satisfaction scores (0-100) to a 0-1 scale using a list comprehension. Demonstrates data scaling for ML preprocessing under silixai.com.
+- **Input**: List of satisfaction scores [10, 25, 50, 75, 100]
+- **Output**: List of normalized scores [0.1, 0.25, 0.5, 0.75, 1.0]
+- **Skills**: Python list comprehensions, data normalization
