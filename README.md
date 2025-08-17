@@ -30,3 +30,9 @@ Categorizes house sizes (in square meters) into 'Small', 'Medium', or 'Large' us
 - **Input**: List of house sizes [30, 75, 120, 200, 300]
 - **Output**: List of size labels ['Small', 'Small', 'Medium', 'Large', 'Large']
 - **Skills**: Python list comprehensions, conditional logic, feature engineering
+
+# Stock Labeling
+Labels price changes for AAPL, TSLA, MSFT, and NVDA as 'Up', 'Down', or 'Stable' based on daily percentage change using a list comprehension and dictionary, using estimated prices around last Friday (Aug 15, 2025). Demonstrates advanced time-series preprocessing for ML under silixai.com.
+- **Input**: Stock data {AAPL: [232.00, 231.19], TSLA: [334.00, 330.1501], MSFT: [522.00, 520.35], NVDA: [181.00, 179.74]}
+- **Output**: Labels {AAPL: 'Stable', TSLA: 'Down', MSFT: 'Stable', NVDA: 'Stable'} with changes (AAPL: -0.35%, TSLA: -1.15%, MSFT: -0.32%, NVDA: -0.70%)
+- **Skills**: Python dictionaries, list comprehensions, conditional logic, time-series preprocessing
