@@ -24,3 +24,9 @@ Normalizes a list of satisfaction scores (0-100) to a 0-1 scale using a list com
 - **Input**: List of satisfaction scores [10, 25, 50, 75, 100]
 - **Output**: List of normalized scores [0.1, 0.25, 0.5, 0.75, 1.0]
 - **Skills**: Python list comprehensions, data normalization
+
+# House Size Labeling
+Categorizes house sizes (in square meters) into 'Small', 'Medium', or 'Large' using a list comprehension with conditional logic. Demonstrates feature engineering for ML preprocessing under silixai.com.
+- **Input**: List of house sizes [30, 75, 120, 200, 300]
+- **Output**: List of size labels ['Small', 'Small', 'Medium', 'Large', 'Large']
+- **Skills**: Python list comprehensions, conditional logic, feature engineering
